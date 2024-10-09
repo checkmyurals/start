@@ -1009,7 +1009,7 @@
 }
 
 .uui-text-size-large-2.cta-text {
-  color: var(--untitled-ui--gray50);
+  color: var(--untitled-ui--gray800);
   text-align: center;
   max-width: 38rem;
   margin-left: auto;
@@ -1024,7 +1024,7 @@
 }
 
 .uui-heading-xxsmall-2 {
-  color: var(--untitled-ui--gray50);
+  color: var(--untitled-ui--primary600);
   letter-spacing: normal;
   margin-top: 0;
   margin-bottom: 0;
@@ -1069,9 +1069,6 @@
 .uui-faq01_cta-2 {
   background-color: var(--untitled-ui--gray50);
   opacity: .95;
-  background-image: url('../images/bg-static.svg');
-  background-position: 0 45%;
-  background-size: auto;
   border-radius: 2em;
   justify-content: center;
   max-width: 48rem;
@@ -4079,7 +4076,7 @@
   }
 
   .uui-text-size-xlarge {
-    font-size: .9rem;
+    font-size: 1rem;
   }
 
   .uui-heroheader04_component {
@@ -4092,7 +4089,7 @@
   }
 
   .uui-heading-medium.text-weight-medium {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   .uui-testimonial10_lightbox-image {
@@ -4104,7 +4101,7 @@
   }
 
   .uui-faq01_heading-2 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .uui-heading-medium-3, .uui-heading-medium-3.heading-ft {
@@ -4112,13 +4109,12 @@
   }
 
   .uui-text-size-medium-5 {
-    white-space: nowrap;
-    word-break: normal;
-    font-size: .9rem;
+    white-space: normal;
+    font-size: 1.1rem;
   }
 
   .uui-heading-small-2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 
   .uui-layout83_list {
