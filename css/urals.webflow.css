@@ -1079,6 +1079,12 @@
   display: flex;
 }
 
+.uui-faq01_cta-2.cta-cases {
+  background-color: #0000;
+  background-image: linear-gradient(#ffffffb3, #ffffffb3);
+  margin-top: 5rem;
+}
+
 .uui-space-medium-2 {
   width: 100%;
   min-height: 2rem;
@@ -1169,7 +1175,7 @@
 }
 
 .uui-faq01_component-2 {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .uui-space-xsmall-2 {
@@ -1189,7 +1195,7 @@
 
 .uui-heading-medium-3.heading-ft {
   color: var(--untitled-ui--gray900);
-  margin-top: 5rem;
+  margin-top: 7rem;
   font-size: 2.5rem;
 }
 
@@ -1514,7 +1520,7 @@
 }
 
 .uui-padding-vertical-xhuge-5 {
-  padding-top: 7rem;
+  padding-top: 4rem;
   padding-bottom: 7rem;
 }
 
@@ -1625,6 +1631,10 @@
   width: 100%;
   padding: 1.5rem;
   display: flex;
+}
+
+.uui-layout83_item.block-hidden {
+  display: none;
 }
 
 .uui-layout83_list {
@@ -2352,7 +2362,7 @@
   align-items: flex-start;
   width: 20rem;
   min-width: 20rem;
-  margin-right: 2rem;
+  margin-right: .8rem;
   padding: 0;
   display: flex;
 }
@@ -2371,7 +2381,7 @@
 }
 
 .uui-text-size-large-5 {
-  color: var(--untitled-ui--gray50);
+  color: var(--untitled-ui--gray800);
   letter-spacing: normal;
   font-size: 1.125rem;
   line-height: 1.5;
@@ -2383,7 +2393,7 @@
 }
 
 .uui-heading-medium-6 {
-  color: var(--untitled-ui--gray50);
+  color: var(--untitled-ui--gray800);
   margin-top: 0;
   margin-bottom: 0;
   font-size: 2.5rem;
@@ -2406,15 +2416,15 @@
 }
 
 .uui-padding-vertical-xhuge-8 {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .uui-section_testimonial16 {
   background-color: var(--untitled-ui--gray50);
-  background-image: url('../images/Screenshot-2024-09-24-at-12.06.48-PM-1.png');
-  background-position: 50% 0;
-  background-size: contain;
+  background-image: linear-gradient(#f9fafb, #f9fafb00 27% 56%, #f9fafb), url('../images/examples-bg.png');
+  background-position: 0 0, 50% 0;
+  background-size: auto, cover;
   overflow: hidden;
 }
 
@@ -2514,7 +2524,7 @@
 }
 
 .header-wrapper {
-  background-image: url('../images/Wave1x-14.3s-1570px-1085px.svg');
+  background-image: url('../images/bg.svg');
   background-position: 0 0;
   background-size: cover;
   width: 100%;
@@ -3940,8 +3950,8 @@
   }
 
   .uui-testimonial16_content {
-    margin-right: 1.5rem;
-    padding: 1.5rem;
+    margin-right: .2rem;
+    padding: 1.5rem .2rem;
   }
 
   .uui-testimonial16_component {
@@ -4076,7 +4086,7 @@
   }
 
   .uui-text-size-xlarge {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .uui-heroheader04_component {
@@ -4089,7 +4099,7 @@
   }
 
   .uui-heading-medium.text-weight-medium {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .uui-testimonial10_lightbox-image {
