@@ -397,6 +397,10 @@
   position: absolute;
 }
 
+.uui-heroheader04_image.screen-mobile {
+  display: none;
+}
+
 .uui-heroheader04_image-wrapper {
   height: 100%;
   min-height: 44.375rem;
@@ -4417,6 +4421,14 @@
 @media screen and (max-width: 479px) {
   .uui-navbar07_dropdown-link {
     padding-left: 0;
+  }
+
+  .uui-heroheader04_image.screen-desktop {
+    display: none;
+  }
+
+  .uui-heroheader04_image.screen-mobile {
+    display: block;
   }
 
   .uui-button-wrapper.max-width-full-mobile-landscape {
