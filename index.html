@@ -16,6 +16,28 @@
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
   <meta name="theme-color" content="#366AF7">
+
+  <script
+  src="https://cdn.jsdelivr.net/npm/@uploadcare/file-uploader@1/web/uc-img.min.js"
+  type="module"
+></script>
+
+<style>
+  uc-img {
+    --uc-img-pubkey: "364c0864158c27472ffe";
+    display: contents;
+  }
+
+  uc-img > img {
+    transition: 1s;
+  }
+
+  uc-img > img[unresolved] {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+</style>
+  
   <!--  Google Tag Manager  -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
