@@ -17,10 +17,11 @@
   <link href="images/webclip.png" rel="apple-touch-icon">
   <meta name="theme-color" content="#366AF7">
 
-  <script
-  src="https://cdn.jsdelivr.net/npm/@uploadcare/file-uploader@1/web/uc-img.min.js"
-  type="module"
-></script>
+  <script type="module">
+    import * as UC from "https://cdn.jsdelivr.net/npm/@uploadcare/file-uploader@v1/web/file-uploader.min.js";
+    UC.defineComponents(UC);
+</script>
+
 
 <style>
   uc-img {
